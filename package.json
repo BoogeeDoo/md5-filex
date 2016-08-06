@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/BoogeeDoo/node-md5-file/issues"
   },
-  "homepage": "https://github.com/BoogeeDoo/node-md5-file#readme"
+  "homepage": "https://github.com/BoogeeDoo/node-md5-file#readme",
+  "dependencies": {
+    "nan": "^2.4.0"
+  }
 }
