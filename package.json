@@ -2,7 +2,7 @@
   "name": "md5-file",
   "version": "1.0.0",
   "description": "Calculate file checksum using MD5 in node.js native (start with reading a file).",
-  "main": "index.js",
+  "main": "md5.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
