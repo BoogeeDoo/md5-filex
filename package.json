@@ -23,5 +23,9 @@
   "homepage": "https://github.com/BoogeeDoo/node-md5-file#readme",
   "dependencies": {
     "nan": "^2.4.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2",
+    "should": "^11.1.0"
   }
 }
