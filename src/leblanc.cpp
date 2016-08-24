@@ -17,3 +17,9 @@
  */
 #include <openssl/md5.h>
 #include <nan.h>
+
+NAN_MODULE_INIT(Init)
+{
+}
+
+NODE_MODULE(leblanc, Init);
