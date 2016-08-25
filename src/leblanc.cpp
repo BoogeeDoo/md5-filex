@@ -17,9 +17,16 @@
  */
 #include <openssl/md5.h>
 #include <nan.h>
+using namespace v8;
+
+NAN_METHOD(CalculateLeblancMD5)
+{
+}
 
 NAN_MODULE_INIT(Init)
 {
+    Nan::Set(target, Nan::New<String>("calculate").ToLocalChecked(),
+            Nan::GetFunction(Nan::New<FunctionTemplate>(CalculateLeblancMD5)).ToLocalChecked());
 }
 
 NODE_MODULE(leblanc, Init);
