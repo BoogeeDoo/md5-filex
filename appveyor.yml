@@ -1,0 +1,12 @@
+install:
+  - ps: Install-Product node 4
+  - npm -g install npm@next
+  - npm install
+
+test_script:
+  - npm test
+
+configuration:
+  - Release
+
+build: off
