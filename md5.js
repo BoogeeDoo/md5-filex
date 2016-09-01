@@ -7,3 +7,7 @@
 "use strict";
 
 const leblanc = require("./build/Release/leblanc.node");
+
+exports.calculate = function(filename, callback) {
+    return leblanc.calculate(filename, callback);
+};
