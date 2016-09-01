@@ -1,10 +1,10 @@
 {
-  "name": "md5-file",
+  "name": "md5-filex",
   "version": "1.0.0",
   "description": "Calculate file checksum using MD5 in node.js native (start with reading a file).",
   "main": "md5.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make test"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
     "nan": "^2.4.0"
   },
   "devDependencies": {
+    "md5-file": "^3.1.1",
     "mocha": "^3.0.2",
     "should": "^11.1.0"
   }
