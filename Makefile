@@ -4,4 +4,7 @@ install:
 test:
 	@./node_modules/.bin/_mocha
 
-.PHONY: test
+benchmark:
+	@node benchmark/index.js
+
+.PHONY: test benchmark

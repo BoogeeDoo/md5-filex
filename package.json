@@ -4,7 +4,8 @@
   "description": "Calculate file checksum using MD5 in node.js native (start with reading a file).",
   "main": "md5.js",
   "scripts": {
-    "test": "make test"
+    "test": "make test",
+    "benchmark": "make benchmark"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
     "nan": "^2.4.0"
   },
   "devDependencies": {
+    "benchmark": "^2.1.1",
     "md5-file": "^3.1.1",
     "mocha": "^3.0.2",
     "should": "^11.1.0"
