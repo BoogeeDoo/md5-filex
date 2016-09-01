@@ -1,5 +1,12 @@
 # md5-filex
 
+[![Version](http://img.shields.io/npm/v/md5-filex.svg)](https://www.npmjs.com/package/md5-filex)
+[![Downloads](http://img.shields.io/npm/dm/md5-filex.svg)](https://www.npmjs.com/package/md5-filex)
+[![License](https://img.shields.io/npm/l/md5-filex.svg?style=flat)](https://opensource.org/licenses/MIT)
+[![AppVeypr](https://ci.appveyor.com/api/projects/status/90hcbf6p42ee34dk/branch/master?svg=true)](https://ci.appveyor.com/project/XadillaX/md5-filex)
+[![TravisCI](https://travis-ci.org/BoogeeDoo/md5-filex.svg)](https://travis-ci.org/BoogeeDoo/md5-filex)
+[![Dependency](https://david-dm.org/BoogeeDoo/md5-filex.svg)](https://david-dm.org/BoogeeDoo/md5-filex)
+
 Calculate file checksum using MD5 in node.js native (start with reading a file).
 
 > A bit faster than md5-file.
@@ -13,16 +20,16 @@ $ npm install --save md5-filex
 ## Usage
 
 ```javascript
-const md5 = require("md5-filex");
+cmd5-filext md5 = require("md5-filex");
 
 // Async usage
 md5.calculate("LICENSE.md", function(err, hash) {
-    console.log(err, hash);
+    cmd5-filexole.log(err, hash);
 });
 
 // Sync usage
-const hash = md5.calculate("LICENSE.md");
-console.log(hash);
+cmd5-filext hash = md5.calculate("LICENSE.md");
+cmd5-filexole.log(hash);
 ```
 
 ## API
