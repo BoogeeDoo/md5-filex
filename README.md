@@ -9,7 +9,7 @@
 
 Calculate file checksum using MD5 in node.js native (start with reading a file).
 
-> A bit faster than md5-file.
+> A bit faster than md5-file under *NIX.
 
 ## Installation
 
@@ -69,6 +69,8 @@ A file with 400kb:
 md5-filex x 1,112 ops/sec ±0.33% (89 runs sampled)
 md5-file x 1,052 ops/sec ±0.49% (88 runs sampled)
 ```
+
+> **HINT:** Not that fast under Microsoft Windows.
 
 ## Contribution
 
