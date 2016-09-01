@@ -17,6 +17,7 @@ const md5 = require("../md5");
 const filenames = [];
 
 function loadFilename(directory) {
+    //return filenames.push(path.resolve(__dirname, "../test/kisume.jpg"));
     const files = fs.readdirSync(directory);
     files.forEach(filename => {
         if(filename === ".git" || filename === "node_modules") return;
