@@ -20,16 +20,16 @@ $ npm install --save md5-filex
 ## Usage
 
 ```javascript
-cmd5-filext md5 = require("md5-filex");
+const md5 = require("md5-filex");
 
 // Async usage
 md5.calculate("LICENSE.md", function(err, hash) {
-    cmd5-filexole.log(err, hash);
+    console.log(err, hash);
 });
 
 // Sync usage
-cmd5-filext hash = md5.calculate("LICENSE.md");
-cmd5-filexole.log(hash);
+const hash = md5.calculate("LICENSE.md");
+console.log(hash);
 ```
 
 ## API
