@@ -11,7 +11,15 @@
       ],
       "cflags_cc!": [ "-fno-exceptions", "-pthread", "-Wl,--no-as-needed", "-ldl" ],
       "cflags_cc": [ "-Wno-ignored-qualifiers" ],
-      "cflags": [ "-std=c++11" ]
+      "cflags": [ "-std=c++11" ],
+
+      "conditions": [
+        ["OS==\"win\"", {
+          "sources": [
+            "./src/md5_windows.c"
+          ]
+        }]
+      ]
     }
   ]
 }

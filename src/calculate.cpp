@@ -17,7 +17,11 @@
  */
 #include "calculate.h"
 #include <cstdlib>
+#ifdef WIN32
+#include "md5_windows.h"
+#else
 #include <openssl/md5.h>
+#endif
 
 const int LEBLANC_BUFFER_SIZE = 8192;
 
@@ -51,7 +55,7 @@ string RealCalculateLeblancMD5(const char* filename, char md5[17])
         fclose(in_file);
         return "unknown error in `RealCalculateLeblancMD5`.";
     }
-   
+
     MD5_Final(c, &md_context);
     sprintf(md5,
             "%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x",
