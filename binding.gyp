@@ -8,7 +8,10 @@
       ],
       "include_dirs": [
         "<!(node -e \"require('nan')\")"
-      ]
+      ],
+      "cflags_cc!": [ "-fno-exceptions", "-pthread", "-Wl,--no-as-needed", "-ldl" ],
+      "cflags_cc": [ "-Wno-ignored-qualifiers" ],
+      "cflags": [ "-std=c++11" ]
     }
   ]
 }
