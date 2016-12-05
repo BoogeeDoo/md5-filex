@@ -18,6 +18,11 @@
           "sources": [
             "./src/md5_windows.c"
           ]
+        }],
+        ["OS==\"mac\"", {
+          "xcode_settings": {
+            "GCC_ENABLE_CPP_EXCEPTIONS": "YES"
+          }
         }]
       ]
     }
