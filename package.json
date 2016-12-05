@@ -1,6 +1,6 @@
 {
   "name": "md5-filex",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Calculate file checksum using MD5 in node.js native (start with reading a file).",
   "main": "md5.js",
   "scripts": {
